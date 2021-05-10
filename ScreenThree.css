@@ -1,0 +1,80 @@
+body{
+	margin : 0;
+	background: white;
+	font-family: 'Work Sans' , sans-serif;
+font-weight: 300;}
+@font-face{
+	font-family: monsteratt;
+	src:url('fonts/monsteratt'); 
+}
+h1{
+	font-family: monsteratt;
+	color: black;
+	font-weight: bold;
+font-size:4em;}
+p{
+font-family: monsteratt;
+	color: black;
+	font-weight: bold;
+font-size:2em;}
+
+
+blockquote { /* blockquote made to look more professional */ 
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-style:italic;
+}
+
+.container{ /* container to  help style my navigation bar */
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+background: #A0B1B9
+ }
+header::after{
+	content: '';
+	display: table;
+	
+clear:both;}
+
+.city{ /* puts my logo on each page to the left*/
+	float:left;
+	padding: 10px 0;
+}
+nav{ /* navbar customization */ 
+float:right;
+
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size: 28px;
+	font-family: monsteratt;
+	color: black;
+	
+
+}
+nav li{
+	display: inline-block;
+	margin: 35px 35px;
+	padding-top: 25px;
+	
+	
+	
+}

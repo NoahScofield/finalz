@@ -1,0 +1,56 @@
+body{
+	margin : 0;
+	background: white;
+	font-family: 'Work Sans' , sans-serif;
+font-weight: 300;}
+
+
+p{
+
+font-family: monsteratt;
+font-weight: 300;
+font-size: 2em;
+}
+
+.try{
+
+font-family: monsteratt;
+font-weight: 300;
+font-size: 3em;
+}
+
+header{
+background: #A0B1B9
+ }
+header::after{
+	content: '';
+	display: table;
+clear:both;}
+
+.city{
+	float:left;
+	padding: 10px 0;
+}
+.aligning{
+float:right;
+
+}
+nav{
+float:right;}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size: 28px;
+}
+nav li{
+	display: inline-block;
+	margin: 35px 35px;
+	padding-top: 25px;
+	
+	
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
